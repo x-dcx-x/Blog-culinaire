@@ -109,8 +109,10 @@ main {
 }
 
 .border{
+    display: flex;
     border: lightgrey solid 0.5px;
     border-radius: 25px;
+    margin-bottom: 5rem;
 }
 
 .imgsmain {
@@ -122,10 +124,12 @@ main {
     margin-left:3rem ;
 }
 
-.légende{
+.legend{
     font-size: 2rem;
     margin-left: 4rem;
-    position: absolute;
-    margin-bottom: 12rem;
-
+    padding: 0.5rem;
+    margin-top: -7rem;
+    z-index: 2;
+    color: black;
+    font-weight: bold;
 }
