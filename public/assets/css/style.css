@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.fa-kitchen-set {
+    font-size: 4rem;
+    margin-left: 2rem;
+}
+
+.barre {
+    font-size: 5rem;
+    margin-left: 1.5rem;
+}
+
+.fa-stroopwafel {
+    font-size: 3rem;
+    margin-left: 4rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin-left: 1rem;
+
+
+}
+
+.fa-magnifying-glass {
+
+    position: absolute;
+    font-size: 1.6rem;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+
+
+}
+
+#searchBar {
+    width: 112rem;
+    height: 3.2rem;
+    border-radius: 20px;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+
+}
+
+.fa-circle-right {
+    font-size: 2.5rem;
+    margin-left: -3rem;
+    margin-top: 0.5rem;
+
+}
+
+.panier, .connection {
+    font-size: 2rem;
+    width: 15rem;
+    height: 3.2rem;
+    border-radius: 20px;
+    background-color: aqua;
+
+}
+
+.connection {
+    margin-left: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list{
+    justify-content: center;
+    text-align: center;
+}
+
+.listNav,.fa-book-open,.fa-euro-sign,.fa-stopwatch,.fa-bullhorn {
+    display: flex;
+    font-size: 2rem;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+     width: 60%;
+    align-items: center;
+
+}
+
+.fa-book-open,.fa-euro-sign,.fa-stopwatch,.fa-bullhorn{
+    font-size: 4.5rem;
+   
+
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.imgsmain{
+    margin-top: 30rem;
+    border-radius:25px;
+    justify-content: space-between;
+}
