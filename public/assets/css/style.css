@@ -76,42 +76,56 @@ nav {
     margin-left: 1rem;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.list{
+.list {
     justify-content: center;
     text-align: center;
 }
 
-.listNav,.fa-book-open,.fa-euro-sign,.fa-stopwatch,.fa-bullhorn {
+.listNav, .fa-book-open, .fa-euro-sign, .fa-stopwatch, .fa-bullhorn {
     display: flex;
     font-size: 2rem;
     flex-wrap: nowrap;
     justify-content: space-between;
-     width: 60%;
+    width: 55%;
     align-items: center;
 
 }
 
-.fa-book-open,.fa-euro-sign,.fa-stopwatch,.fa-bullhorn{
+.fa-book-open, .fa-euro-sign, .fa-stopwatch, .fa-bullhorn {
     font-size: 4.5rem;
-   
 
 }
 
 
-
-main{
+main {
     display: flex;
     justify-content: center;
-
+    margin-top: 30rem;
 
 }
 
-.imgsmain{
-    margin-top: 30rem;
-    border-radius:25px;
-    justify-content: space-between;
+.border{
+    border: lightgrey solid 0.5px;
+    border-radius: 25px;
+}
+
+.imgsmain {
+    border-radius: 25px;
+    border: lightgrey 1px solid;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    margin-left:3rem ;
+}
+
+.légende{
+    font-size: 2rem;
+    margin-left: 4rem;
+    position: absolute;
+    margin-bottom: 12rem;
+
 }
