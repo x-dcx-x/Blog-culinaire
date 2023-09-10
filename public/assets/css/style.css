@@ -101,18 +101,23 @@ ul {
 }
 
 
-main {
+.content{
     display: flex;
     justify-content: center;
-    margin-top: 30rem;
 
 }
 
-.border{
+
+
+main{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
     border: lightgrey solid 0.5px;
     border-radius: 25px;
     margin-bottom: 5rem;
+    margin-top: 30rem;
+
 }
 
 .imgsmain {
@@ -130,6 +135,23 @@ main {
     padding: 0.5rem;
     margin-top: -7rem;
     z-index: 2;
-    color: black;
+    color:fuchsia;
     font-weight: bold;
 }
+
+.sect{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+
+.actu{
+    display: flex;
+   justify-content: center;
+    flex-flow: row  nowrap;
+
+
+}
+
+
