@@ -14,9 +14,6 @@ body {
     align-items: center;
     flex-direction: column;
 
-
-
-
 }
 
 nav {
@@ -111,6 +108,7 @@ ul {
 
 }
 /*//////////////debut 3 imgs///////////////*/
+
 main {
     display: flex;
     justify-content: center;
@@ -126,6 +124,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin-bottom: 4rem;
 
 }
