@@ -1,0 +1,52 @@
+  <div>
+    <section class="actu">
+
+        <div><h2 class="titleh2">Consultez nos dernières actus</h2></div>
+
+
+        <div class="lign1">
+
+            <div class="imgactu">
+                <img src="public/assets/imgs/surgeler.webp" alt="produit surgeler">
+            </div>
+
+            <div class="htroisActu">
+                <h3>La meilleure astuce pour refermer un sachet de surgelés entamé, c'est
+                    celle-ci !</h3></div>
+
+            <div class="imgactu">
+                <img src="public/assets/imgs/mayo.webp" alt="mayonnaise">
+            </div>
+
+            <div>
+                <h3 class="htroisActu">Voici le secret pour réussir à tous les coups une mayonnaise à la main (sans batteur électrique)</h3>
+            </div>
+
+        </div>
+
+        <div class="lign1">
+
+            <img class="imgactu" src="public/assets/imgs/boulette.webp" alt=" boulette">
+            <h3 class="htroisActu">Cette recette de spaghetti aux boulettes de Laurent Mariotte (prête en 15
+                min) est
+                parfaite pour le dîner</h3>
+
+            <img class="imgactu" src="public/assets/imgs/poivron.webp" alt="poivron">
+            <h3 class="htroisActu">Pourquoi le poivron vert n’existe finalement pas vraiment !</h3>
+
+        </div>
+
+        <div class="lign1">
+
+            <img class="imgactu" src="public/assets/imgs/chips.webp" alt="chips">
+            <h3 class="htroisActu">N'achetez plus cet aliment une fortune alors que vous pouvez le faire maison pour moins de 2 euros</h3>
+
+            <img class="imgactu" src="public/assets/imgs/alu.webp" alt="Aluminium">
+            <h3 class="htroisActu">Savez-vous pourquoi le papier aluminium possède un côté brillant et un côté mat ? (et voici leur utilité)</h3>
+
+        </div>
+
+
+    </section>
+
+    </div>

@@ -8,6 +8,16 @@ html {
     font-size: 65.5%;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+
+}
 
 nav {
     display: flex;
@@ -97,26 +107,26 @@ ul {
 
 .fa-book-open, .fa-euro-sign, .fa-stopwatch, .fa-bullhorn {
     font-size: 4.5rem;
+    margin-right: 1rem;
 
 }
-
-
-.content{
-    display: flex;
-    justify-content: center;
-
-}
-
-
-
-main{
+/*//////////////debut 3 imgs///////////////*/
+main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: lightgrey solid 0.5px;
+    border: fuchsia solid 0.5px;
     border-radius: 25px;
-    margin-bottom: 5rem;
-    margin-top: 30rem;
+    margin-top: 25rem;
+    width: 60%;
+
+}
+
+.sect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4rem;
 
 }
 
@@ -125,33 +135,95 @@ main{
     border: lightgrey 1px solid;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    margin-right: 3rem;
-    margin-left:3rem ;
+    margin-right: 1rem;
+    margin-left:1rem ;
 }
 
 .legend{
     font-size: 2rem;
     margin-left: 4rem;
-    padding: 0.5rem;
-    margin-top: -7rem;
+    margin-top: -6rem;
     z-index: 2;
     color:fuchsia;
     font-weight: bold;
 }
+/*//////////////debut de l actu////////////////*/
 
-.sect{
+.titleh2{
+    margin-left: 1rem;
+}
+
+.actuTitle{
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.img\&h3up{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.imgsa {
+display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    width: 18%;
+}
+
+.imgsactu{
+    width: 17rem;
+    height: 17rem;
+    border-radius: 25px;
+    margin-top: 2rem;
+ }
+
+.h3act{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    justify-content: space-around;
+    text-align: start;
+
+}
+
+.h3sactu{
+    margin-bottom: 10rem;
+}
+/*//////// Fin de l' actu////////*/
+
+
+
+
+/*//////////////En ce moment /////////////*/
+
+
+.h2Moment{
+    margin-left: 1rem;
+    margin-top: 8rem;
+}
+
+.inMoment{
     display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
-}
-
-
-.actu{
-    display: flex;
-   justify-content: center;
-    flex-flow: row  nowrap;
+    align-content: center;
 
 
 }
+
+.imgsmoment{
+    margin-top: 5rem;
+    border-radius: 25px;
+    width: 27rem;
+    height: 27rem ;
+    padding: 1rem;
+
+
+}
+
+
 
 
