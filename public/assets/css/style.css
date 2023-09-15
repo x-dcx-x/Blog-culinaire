@@ -112,7 +112,7 @@ ul {
 
 main {
     display: flex;
-
+width: 60%;
     justify-content: center;
     flex-direction: column;
     border: fuchsia solid 0.5px;
@@ -217,8 +217,7 @@ display: flex;
 
 .inMoment{
     display: flex;
-    flex-basis: 60%;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
 
 
@@ -237,6 +236,7 @@ display: flex;
     width: 27rem;
     height: 27rem ;
     padding: 1rem;
+
 
 }
 
@@ -260,8 +260,6 @@ display: flex;
     margin-top: -5rem;
     margin-right: 1rem;
     color: white;
-
-
 
 }
 
