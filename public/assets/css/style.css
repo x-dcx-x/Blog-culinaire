@@ -108,23 +108,23 @@ ul {
     margin-right: 1rem;
 
 }
+
 /*//////////////debut 3 imgs///////////////*/
 
 main {
     display: flex;
-width: 60%;
+    width: 60%;
     justify-content: center;
     flex-direction: column;
     border: fuchsia solid 0.5px;
     border-radius: 25px;
     margin-top: 25rem;
-    box-sizing: border-box ;
-
+    box-sizing: border-box;
 
 
 }
 
-.sect{
+.sect {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -136,55 +136,53 @@ width: 60%;
 .imgsmain {
     border-radius: 25px;
     border: lightgrey 1px solid;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    margin-right: 1rem;
-    margin-left:1rem ;
+    margin: 1rem;
 }
 
-.legend{
+.legend {
     font-size: 2rem;
     margin-left: 4rem;
-    margin-top: -6rem;
+    margin-top: -5rem;
     z-index: 2;
-    color:fuchsia;
+    color: fuchsia;
     font-weight: bold;
 }
+
 /*//////////////debut de l actu////////////////*/
 
-.titleh2{
+.titleh2 {
     margin-left: 1rem;
 }
 
-.actuTitle{
+.actuTitle {
     display: flex;
     flex-direction: column;
 
 
-
 }
 
-.img\&h3up{
+.img\&h3up {
     display: flex;
     flex-direction: row;
     width: 100%;
 
 }
+
 .imgsa {
-display: flex;
+    display: flex;
     flex-direction: column;
     margin-left: 1rem;
     width: 18%;
 }
 
-.imgsactu{
+.imgsactu {
     width: 17rem;
     height: 17rem;
     border-radius: 25px;
     margin-top: 2rem;
- }
+}
 
-.h3act{
+.h3act {
     display: flex;
     flex-direction: column;
     width: 22%;
@@ -193,18 +191,17 @@ display: flex;
 
 }
 
-.h3sactu{
+.h3sactu {
     margin-bottom: 10rem;
 }
+
 /*//////// Fin de l' actu////////*/
-
-
 
 
 /*//////////////En ce moment /////////////*/
 
 
-.h2Moment{
+.h2Moment {
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -215,44 +212,39 @@ display: flex;
 }
 
 
-.inMoment{
+.inMoment {
     display: flex;
     justify-content: space-around;
     align-content: center;
 
 
-
 }
 
-.imgM{
+.imgM {
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-.imgsmoment{
+.imgsmoment {
     margin-top: 5rem;
     border-radius: 25px;
     width: 27rem;
-    height: 27rem ;
+    height: 27rem;
     padding: 1rem;
 
 
 }
 
 
-
-
-.h3mom{
+.h3mom {
     display: flex;
     justify-content: center;
 
 
-
-
 }
 
-.h3moment{
+.h3moment {
     text-align: center;
     margin-left: 1rem;
     justify-content: space-between;
@@ -263,4 +255,63 @@ display: flex;
 
 }
 
+/*//////////////Special Apéro////////////*/
+
+.background {
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    margin-top: 1rem;
+
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-radius: 25px;
+
+}
+
+.placeOnText {
+    width: 50%;
+    height: 35rem;
+
+
+}
+
+
+.groundimg {
+    border-radius: 25px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+
+}
+
+.texteApéro {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    text-align: left;
+    align-content: center;
+    width: 35rem;
+    height: 20rem;
+
+}
+
+.folder{
+    border-radius: 25px ;
+    border: black solid 0.1px;
+    height: 4rem;
+    background-color: pink;
+    margin-top: 2rem;
+}
+
+
+
+
+.backwhite{
+    background-color: white;
+    border-radius: 25px;
+   margin-top: 5rem;
+
+
+}
 
