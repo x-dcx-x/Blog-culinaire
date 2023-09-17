@@ -165,6 +165,7 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 3rem;
 
 }
 
@@ -206,7 +207,8 @@ main {
     flex-direction: row;
     align-items: start;
     margin-left: 1rem;
-    margin-top: 8rem
+    margin-top: 3rem;
+    font-size: 2rem;
 
 
 }
@@ -227,7 +229,7 @@ main {
 }
 
 .imgsmoment {
-    margin-top: 5rem;
+    margin-top: 2rem;
     border-radius: 25px;
     width: 27rem;
     height: 27rem;
@@ -296,8 +298,8 @@ main {
 
 }
 
-.folder{
-    border-radius: 25px ;
+.folder {
+    border-radius: 25px;
     border: black solid 0.1px;
     height: 4rem;
     background-color: pink;
@@ -305,13 +307,41 @@ main {
 }
 
 
+/*/////////////// Pour vous aidez en Cuisine////////////*/
 
-
-.backwhite{
+.backwhite {
     background-color: white;
     border-radius: 25px;
-   margin-top: 5rem;
+    margin-top: 5rem;
 
 
 }
 
+.aidezh2 {
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.imgAidezEnCuisine {
+    width: 27rem;
+    height: 27rem;
+    padding: 1rem;
+    border-radius: 25px;
+
+}
+
+.aideTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 7rem;
+    text-align: center;
+
+
+}
+
+.h2aide{
+    display: flex;
+    width: 15rem;
+    font-size: ;
+}
